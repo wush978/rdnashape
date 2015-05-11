@@ -1,0 +1,16 @@
+{
+    "contents" : "useDynLib(rdnashape)\nexportPattern(\"^[[:alpha:]]+\")\nimportFrom(Rcpp, evalCpp)\n",
+    "created" : 1431386233713.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "17124381",
+    "id" : "18DA6956",
+    "lastKnownWriteTime" : 1431193032,
+    "path" : "~/rdnashape/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_namespace"
+}

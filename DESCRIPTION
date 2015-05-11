@@ -1,10 +1,10 @@
 Package: rdnashape
 Type: Package
-Title: What the package does (short line)
+Title: DNA shape prediction
 Version: 1.0
 Date: 2015-05-09
-Author: Your Name
-Maintainer: Your Name <your@email.com>
+Author: Tsu-Pei Chiu
+Maintainer: Tsu-Pei Chiu <tsupeich@usc.edu>
 Description: More about what it does (maybe more than one line)
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.11.6)

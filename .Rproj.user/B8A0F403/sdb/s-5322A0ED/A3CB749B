@@ -1,0 +1,16 @@
+{
+    "contents" : "Package: rdnashape\nType: Package\nTitle: DNA shape prediction\nVersion: 1.0\nDate: 2015-05-09\nAuthor: Tsu-Pei Chiu\nMaintainer: Tsu-Pei Chiu <tsupeich@usc.edu>\nDescription: More about what it does (maybe more than one line)\nLicense: GPL (>= 2)\nImports: Rcpp (>= 0.11.6)\nLinkingTo: Rcpp\n",
+    "created" : 1431386142673.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1444018037",
+    "id" : "A3CB749B",
+    "lastKnownWriteTime" : 1431386209,
+    "path" : "~/rdnashape/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}
