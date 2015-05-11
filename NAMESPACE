@@ -1,0 +1,3 @@
+useDynLib(rdnashape)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
