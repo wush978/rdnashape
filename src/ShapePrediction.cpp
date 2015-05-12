@@ -11,7 +11,7 @@
 using namespace Rcpp;
 
 // [[Rcpp::export]]
-std::string getResult(std::string fastaFilePath, std::string shapeType){
+std::string getResult(std::string fastaFilePath, std::string shapeType, std::string querytable_filename){
   std::ifstream in_fstream(fastaFilePath.c_str());
   std::string outputFile;
   
@@ -38,7 +38,7 @@ std::string getResult(std::string fastaFilePath, std::string shapeType){
         build_unique_pentamers(pentamers_map);
     
         //load the query table from file
-        std::string querytable_filename = "./inst/QueryTable.dat"; //<- I don't know how to fetch the file path here!
+        //std::string querytable_filename = "./inst/QueryTable.dat"; //<- I don't know how to fetch the file path here!
         //std::string querytable_filename = sourceCpp(system.file("QueryTable.dat", package="rdnashape")); // <- Can I do something like this to get the file path?
         
         process_querytable_file(querytable_filename, pentamers_map, debug);
